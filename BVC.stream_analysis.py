@@ -1,5 +1,8 @@
 import requests,threading
 from socketIO_client import SocketIO, LoggingNamespace
+"""
+Initial file from a test github. Not currently used.
+"""
 
 requests.packages.urllib3.disable_warnings()
 
