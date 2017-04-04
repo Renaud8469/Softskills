@@ -28,7 +28,10 @@ def generate_analysis_from_audio(audio_file):
 
 
 if __name__ == "__main__":
-    video = "failed_interview.avi"
+    video = "angry.mov"
     generate_analysis_from_video(video)
-    print('Done')
+    print('Angry : done')
+    video_good = "good.mov"
+    generate_analysis_from_video(video_good)
+    print('Good : done')
 
